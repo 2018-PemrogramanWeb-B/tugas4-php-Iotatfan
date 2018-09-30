@@ -1,0 +1,66 @@
+﻿body {
+    background-color:burlywood;
+    font-family: Verdana,sans-serif;
+}
+
+label, input {
+	font-family: Verdana,sans-serif;
+	color: darkblue;
+    position: absolute;
+}
+
+input {
+    padding: 3px;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+#nama {
+	position:absolute;
+	left: 5px;
+	top: 30px;
+}
+
+#key1 {
+	position:absolute;
+	left: 205px;
+	top: 8px;
+}
+
+#key2 {
+	position:absolute;
+	left: 200px;
+	top: 30px;
+}
+
+.button {
+	position:absolute;
+	border:none;
+	border-radius: 5px;
+	cursor: pointer;
+	padding: 8px 16px;
+	background-color:darkslategray;
+	color:ghostwhite;
+}
+
+.button[name=submit] {
+    left: 300px;
+    top: 60px;
+}
+
+.button[name=out] {
+    left:300px;
+    top:60px;
+}
+
+a {
+    color:ghostwhite;
+    text-decoration:none;
+}
+
+#error {
+    color:red;
+    position:absolute;
+    top: 50px;
+    width:20%;
+}
